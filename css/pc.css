@@ -48,6 +48,7 @@ header{
               font-size: 40px;
               font-weight: 100;
               color: #fff;
+              padding-top:500px;
             }
     .contents:nth-child(2){
         background-color: rgba(255,248,220,0.5);
@@ -57,9 +58,9 @@ header{
             background-color:pink;
             opacity: 0.4;
             border-radius: 30px;
-            padding:300px 220px;
-            margin: 40% auto;
-        }
+            padding:100px 200px;
+            margin: 10% auto;
+            }
     .contents:nth-child(3){
         background-color: rgba(255,215,0,0.5);
         }
@@ -71,12 +72,29 @@ header{
         }
     .contents:nth-child(5){
         background-color: rgba(255,255,240,0.5);
+        color: #000;
         }
 footer{
-    display: flex;
     background-color: rgba(154,205,50,0.6);
     width: 100%;
+    color: #fff;
     }
-    footer ul{
+    footer .footer-list{
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        border-bottom:solid 1px #fff;
+        }
+    footer .footer-list ul{
         padding:80px 30px;
+        }
+        footer .footer-list ul li{
+            padding-top:30px;
+        }
+        footer h3{
+            text-align: right;
+            padding:30px;
+            font-weight: 100;
+            font-size: 36px;
         }
